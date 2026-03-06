@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { MapPin, Phone, MessageCircleMore } from "lucide-react"
+import { MapPin, Phone } from "lucide-react"
 
 function Footer() {
   return (
@@ -14,6 +14,11 @@ function Footer() {
 
           {/* Brand */}
           <div>
+            {/* <img
+              src="/Indore-airport-cab-service-logo-1.webp"
+              alt="Indore Airport Cab Service logo"
+              className="h-50 w-auto rounded-md p-1"
+            /> */}
             <h3 className="text-xl font-bold text-white">
               Indore Airport Cab Service
             </h3>
@@ -103,10 +108,7 @@ function Footer() {
                 rel="noreferrer"
                 className="flex items-center gap-3 text-slate-400 transition hover:text-[var(--color-brand-400)]"
               >
-                <MessageCircleMore
-                  size={18}
-                  className="text-[var(--color-brand-500)]"
-                />
+                <i className="fa-brands fa-whatsapp text-lg leading-none text-[var(--color-brand-500)]" aria-hidden="true" />
                 WhatsApp Chat
               </a>
 

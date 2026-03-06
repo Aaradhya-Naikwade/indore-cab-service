@@ -1,8 +1,14 @@
+import BookNowHeroSection from "../components/booknow/BookNowHeroSection"
+import BookNowFormSection from "../components/booknow/BookNowFormSection"
+import CallToAction from "../components/common/CallToAction"
+
 function BookNow() {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold">Book Now</h1>
-    </div>
+    <main>
+      <BookNowHeroSection />
+      <BookNowFormSection />
+      <CallToAction />
+    </main>
   )
 }
 
