@@ -1,8 +1,17 @@
+import ContactHeroSection from "../components/contact/ContactHeroSection"
+import ContactInfoSection from "../components/contact/ContactInfoSection"
+import ContactFormSection from "../components/contact/ContactFormSection"
+import CallToAction from "../components/common/CallToAction"
+
 function Contact() {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold">Contact Us</h1>
-    </div>
+    <main>
+      <ContactHeroSection />
+            <ContactFormSection />
+
+      <ContactInfoSection />
+      <CallToAction />
+    </main>
   )
 }
 

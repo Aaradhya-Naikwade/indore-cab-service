@@ -4,8 +4,8 @@ import OurServicesSection from "../components/home/OurServicesSection"
 import FleetPreviewSection from "../components/home/FleetPreviewSection"
 import WhyChooseUsSection from "../components/home/WhyChooseUsSection"
 import RoutesToTravelSection from "../components/home/RoutesToTravelSection"
-import Testimonials from "../components/home/Testimonials"
-import CallToAction from "../components/home/CallToAction"
+import CallToAction from "../components/common/CallToAction"
+import TestimonialsSection from "../components/common/TestimonialsSection"
 import WhyHireTaxi from "../components/home/WhyHireTaxi"
 import LatestBlogsSection from "../components/home/LatestBlogsSection"
 
@@ -74,7 +74,7 @@ function Home() {
       <RoutesToTravelSection />
       <CallToAction />
       <WhyChooseUsSection />
-      <Testimonials />
+      <TestimonialsSection />
       <LatestBlogsSection />
       <WhyHireTaxi />
     </main>

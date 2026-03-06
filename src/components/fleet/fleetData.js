@@ -1,0 +1,147 @@
+export const CONTACT_PHONE = "+919826498273"
+export const WHATSAPP_NUMBER = "919826498273"
+
+const OTHER_CHARGES = "Toll/Parking/State Tax/RTO Charges As Per Actual"
+
+export const FLEET_BY_CATEGORY = [
+  {
+    title: "Hatchback Cab",
+    tag: "Budget Friendly",
+    cars: [
+      {
+        name: "Maruti Swift",
+        image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 10 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Maruti Suzuki",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+      {
+        name: "Hyundai i10",
+        image: "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 10 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Hyundai",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+    ],
+  },
+  {
+    title: "Sedan Cab",
+    tag: "Comfort Focused",
+    cars: [
+      {
+        name: "Swift Dzire",
+        image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 11 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Maruti Suzuki",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+      {
+        name: "Honda City",
+        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 12 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Honda",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+    ],
+  },
+  {
+    title: "SUV Cab",
+    tag: "Family / Group Comfort",
+    cars: [
+      {
+        name: "Maruti Ertiga",
+        image: "/Ertiga.jpg",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 13 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Maruti Suzuki",
+        seatingCapacity: "6 Persons + 1 Driver",
+      },
+      {
+        name: "Toyota Innova",
+        image: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 16 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Toyota",
+        seatingCapacity: "6 Persons + 1 Driver",
+      },
+      {
+        name: "Innova Crysta",
+        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 18 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Toyota",
+        seatingCapacity: "6 Persons + 1 Driver",
+      },
+    ],
+  },
+  {
+    title: "Luxury Car",
+    tag: "Executive Class",
+    cars: [
+      {
+        name: "BMW 5 Series",
+        image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 45 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "BMW",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+      {
+        name: "Audi A6",
+        image: "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=1200&q=80",
+        doors: "4 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 48 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Audi",
+        seatingCapacity: "4 Persons + 1 Driver",
+      },
+    ],
+  },
+  {
+    title: "Tempo Traveller",
+    tag: "Group Travel",
+    cars: [
+      {
+        name: "Tempo Traveller 12 Seater",
+        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+        doors: "3 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 24 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Force Motors",
+        seatingCapacity: "12 Persons + 1 Driver",
+      },
+      {
+        name: "Tempo Traveller 17 Seater",
+        image: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?auto=format&fit=crop&w=1200&q=80",
+        doors: "3 Doors",
+        otherCharges: OTHER_CHARGES,
+        charges: "Rs 28 Per Km",
+        airConditioned: "Air Conditioned",
+        manufacturer: "Force Motors",
+        seatingCapacity: "17 Persons + 1 Driver",
+      },
+    ],
+  },
+]

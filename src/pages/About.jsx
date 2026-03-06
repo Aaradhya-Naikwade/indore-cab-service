@@ -1,8 +1,19 @@
+import AboutHeroSection from "../components/about/AboutHeroSection"
+import AboutUsSection from "../components/about/AboutUsSection"
+import OurCommitmentSection from "../components/about/OurCommitmentSection"
+import CoFounderSection from "../components/about/CoFounderSection"
+import CallToAction from "../components/common/CallToAction"
+
+
 function About() {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold">About Us</h1>
-    </div>
+    <main>
+      <AboutHeroSection />
+      <AboutUsSection />
+      <OurCommitmentSection />
+      <CallToAction/>
+      <CoFounderSection />
+    </main>
   )
 }
 
